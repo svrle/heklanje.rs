@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7be3d96e-3b97-4701-aec7-9a3f0bc4ae67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/fos_user.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes/fos_user.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.dist" afterPath="$PROJECT_DIR$/.env.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/heklanje.rs.iml" afterPath="$PROJECT_DIR$/.idea/heklanje.rs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bundles.php" afterPath="$PROJECT_DIR$/config/bundles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/framework.yaml" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/routing.yaml" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/security.yaml" afterPath="$PROJECT_DIR$/config/packages/security.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.yaml" afterPath="$PROJECT_DIR$/config/routes.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/CrochetController.php" afterPath="$PROJECT_DIR$/src/Controller/CrochetController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/User.php" afterPath="$PROJECT_DIR$/src/Entity/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/crochet/new.html.twig" afterPath="$PROJECT_DIR$/templates/crochet/new.html.twig" />
-    </list>
+    <list default="true" id="7be3d96e-3b97-4701-aec7-9a3f0bc4ae67" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -290,12 +272,12 @@
       <workItem from="1537474022358" duration="195000" />
       <workItem from="1537554731388" duration="1240000" />
       <workItem from="1537614005035" duration="1586000" />
-      <workItem from="1537723074239" duration="3231000" />
+      <workItem from="1537723074239" duration="3391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8940000" />
+    <option name="totallyTimeSpent" value="9100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
