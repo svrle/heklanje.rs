@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Crochet;
 use App\Form\CrochetType;
+use App\Repository\CrochetRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -21,10 +22,14 @@ class CrochetController extends AbstractController
     }
 
     /**
-     * @Route("/user/crochet/new", name="user_newCrochet")
+     * @Route("/user/crochet", name="user_newCrochet")
      */
-    public function newAction(Request $request) {
+    public function newAction(Request $request, CrochetRepository $crochetRepository) {
 
+        //index crochet
+        $crochets = $crochetRepository->findAll();
+
+        //new crochet
         $crochet = new Crochet();
         $form = $this->createForm(CrochetType::class, $crochet);
 
@@ -39,7 +44,8 @@ class CrochetController extends AbstractController
         }
 
         return $this->render('crochet/new.html.twig', [
-            'crochetForm' => $form->createView()
+            'crochetForm' => $form->createView(),
+            'crochets' => $crochets
         ]);
 
 

@@ -4,6 +4,14 @@
 
 {% block body %}
 
+    {# Index list #}
+    <div class="example-wrapper">
+        {% for crochet in crochets %}
+            {{ crochet.title }} - {{ crochet.description }} <br />
+        {% endfor %}
+    </div>
+
+    {# new crochet Form #}
     {{ form_start(crochetForm) }}
         {{ form_widget(crochetForm) }}
         <button type="submit">Add</button>
