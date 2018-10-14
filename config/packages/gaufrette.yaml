@@ -1,0 +1,9 @@
+knp_gaufrette:
+    adapters:
+        foo:
+            local:
+                directory: /Users/svrle/heklanje.rs/public
+    filesystems:
+            bar:
+                adapter:    foo
+                alias:      foo_filesystem

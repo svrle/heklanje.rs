@@ -28,7 +28,7 @@ class CrochetController extends AbstractController
 
         //index crochet
         $crochets = $crochetRepository->findAll();
-
+//        dd($this->getUser());
         //new crochet
         $crochet = new Crochet();
         $form = $this->createForm(CrochetType::class, $crochet);

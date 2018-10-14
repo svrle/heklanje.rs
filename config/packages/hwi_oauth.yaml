@@ -1,0 +1,28 @@
+hwi_oauth:
+    connect:
+        account_connector: my_user_provider
+
+    firewall_names: [main]
+    fosub:
+        username_iterations: 30
+        properties:
+            google: googleId
+    # https://github.com/hwi/HWIOAuthBundle/blob/master/Resources/doc/2-configuring_resource_owners.md
+    resource_owners:
+#        facebook:
+#            type:                facebook
+#            client_id:           '%env(FB_ID)%'
+#            client_secret:       '%env(FB_SECRET)%'
+#            scope:               "email"
+#            options:
+#                display: popup
+#                csrf: true
+
+        google:
+            type:                google
+            client_id:           '%env(GOOGLE_ID)%'
+            client_secret:       '%env(GOOGLE_SECRET)%'
+            scope:               "email profile"
+            options:
+                request_visible_actions: "http://schemas.google.com/AddActivity http://schemas.google.com/CommentActivity"
+                csrf: true
